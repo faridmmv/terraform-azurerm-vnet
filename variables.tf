@@ -1,7 +1,7 @@
 variable "name" {
   description = "Vnet Name"
   type        = string
-  default     = "azure-terraform-vnet"
+  default     = "terraform-azurerm-vnet"
 }
 
 variable "address_space" {}
