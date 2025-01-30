@@ -1,2 +1,40 @@
 <!-- BEGIN_TF_DOCS -->
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.9.3 |
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | ~> 4.5.0 |
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | ~> 4.5.0 |
+
+## Modules
+
+No modules.
+
+## Resources
+
+| Name | Type |
+|------|------|
+| [azurerm_virtual_network.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_network) | resource |
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_address_space"></a> [address\_space](#input\_address\_space) | n/a | `any` | n/a | yes |
+| <a name="input_location"></a> [location](#input\_location) | Region for virtual network | `string` | `"West Europe"` | no |
+| <a name="input_name"></a> [name](#input\_name) | Vnet Name | `string` | `"terraform-azurerm-vnet"` | no |
+| <a name="input_rg_name"></a> [rg\_name](#input\_rg\_name) | n/a | `any` | n/a | yes |
+| <a name="input_tags"></a> [tags](#input\_tags) | default tags to apply to resources | `map(any)` | n/a | yes |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="output_vnet"></a> [vnet](#output\_vnet) | n/a |
 <!-- END_TF_DOCS -->
