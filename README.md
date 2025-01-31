@@ -26,10 +26,10 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_address_space"></a> [address\_space](#input\_address\_space) | n/a | `any` | n/a | yes |
+| <a name="input_address_space"></a> [address\_space](#input\_address\_space) | Vnet subnet | `list(string)` | <pre>[<br/>  "10.0.0.0/24"<br/>]</pre> | no |
 | <a name="input_location"></a> [location](#input\_location) | Region for virtual network | `string` | `"West Europe"` | no |
 | <a name="input_name"></a> [name](#input\_name) | Vnet Name | `string` | `"terraform-azurerm-vnet"` | no |
-| <a name="input_rg_name"></a> [rg\_name](#input\_rg\_name) | n/a | `any` | n/a | yes |
+| <a name="input_rg_name"></a> [rg\_name](#input\_rg\_name) | Name of the resource group | `string` | `"terraform-rg"` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | default tags to apply to resources | `map(any)` | n/a | yes |
 
 ## Outputs
