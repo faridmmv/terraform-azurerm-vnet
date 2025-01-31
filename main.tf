@@ -8,7 +8,6 @@ resource "azurerm_virtual_network" "this" {
     var.tags,
     {
       ManagedBy = "terraform"
-      env       = "production"
     }
   )
 }
