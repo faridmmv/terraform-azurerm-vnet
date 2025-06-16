@@ -26,6 +26,6 @@ variable "tags" {
   description = "default tags to apply to resources"
   type        = map(any)
   default = {
-    env       = "production"
+    env = "production"
   }
 }
